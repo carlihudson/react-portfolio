@@ -3,9 +3,12 @@ import React from 'react';
 function Navigation({ currentPage, handlePageChange }) {
   return (
     <div className="container">
-      <div clasName="row">
-    <h1 className="col-4">Carli Hudson</h1>
-    <ul className="nav col">
+  <div class="row">
+    <div class="col">
+      <h1>Carli Hudson</h1>
+    </div>
+    <div class="col-8">
+    <ul className="nav col justify-content-end">
       <li className="nav-item">
         <a
           href="#about"
@@ -44,7 +47,9 @@ function Navigation({ currentPage, handlePageChange }) {
       </li>
     </ul>
     </div>
-    </div>
+  </div>
+</div>
+    
   );
 }
 
