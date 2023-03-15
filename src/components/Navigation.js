@@ -3,7 +3,7 @@ import React from 'react';
 function Navigation({ currentPage, handlePageChange }) {
   return (
     <div className="container">
-  <div class="row">
+  <div className="row">
     <div class="col">
       <h1>Carli Hudson</h1>
     </div>
