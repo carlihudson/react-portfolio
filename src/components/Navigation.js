@@ -5,9 +5,9 @@ function Navigation({ currentPage, handlePageChange }) {
     <div className="container">
   <div className="row">
     <div className="col">
-      <h1>Carli Hudson</h1>
+      <h1 className="mt-4">Carli Hudson</h1>
     </div>
-    <div className="col-8">
+    <div className="col-8 mt-4">
     <ul className="nav col justify-content-end">
       <li className="nav-item">
         <a

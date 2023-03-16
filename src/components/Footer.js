@@ -3,9 +3,15 @@ import GitHub from '../assets/img/github-mark-white.png';
 import Linkedin from '../assets/img/In-White-26@2x.png';
 import Instagram from '../assets/img/Instagram_Glyph_White.png';
 
+const styles = {
+    footer: {
+        background: '#3B252C',
+    }
+}
+
 function Footer() {
     return (
-        <div className="page-footer-section bg-dark fixed-bottom">
+        <div style={styles.footer} className="page-footer-section fixed-bottom">
                 <div className="container">
                     <div className="row py-3">
                             <h5 className="mb-1 text-light text-center">carlihudson@gmail.com</h5>
