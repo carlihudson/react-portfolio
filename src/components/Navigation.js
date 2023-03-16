@@ -4,10 +4,10 @@ function Navigation({ currentPage, handlePageChange }) {
   return (
     <div className="container">
   <div className="row">
-    <div class="col">
+    <div className="col">
       <h1>Carli Hudson</h1>
     </div>
-    <div class="col-8">
+    <div className="col-8">
     <ul className="nav col justify-content-end">
       <li className="nav-item">
         <a
