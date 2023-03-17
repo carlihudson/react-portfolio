@@ -1,19 +1,23 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
-// import { SMTPClient } from 'emailjs';
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
+
+  emailjs.init("L-fYRhw0IACWQmU8l")
 
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
   const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
+  
+   //function to send email on submit
+ 
 
   const handleFormChange = (e) => {
     const { target } = e;
     const inputType = e.target.id;
     const inputValue = e.target.value;
-    console.log(inputType)
 
     if (inputType === 'email') {
       setEmail(inputValue);
@@ -31,22 +35,35 @@ export default function Contact() {
     if (!validateEmail(email)) {
       setErrorMessage('Email is invalid');
       return;
+    } else {
+      sendEmail();
     }
 
-    // const client = new SMTPClient({
-    //   user: 'name',
-    //   host: 'smtp.carlihudson@gmail.com',
-    //   ssl: true
-    // });
-
-    // client.send(
-    //   {
-    //     text: message,
-    //     from: email,
-    //     to: 'carlihudson@gmail.com',
-    //     subject: 'You Have an Inquiry!'
-    //   }
-    // )
+    function sendEmail() {
+      let templateParams = {
+        from_name: name,
+        reply_to: email,
+        to_name: "Carli Hudson",
+        message: message,
+      };
+      emailjs
+        .send(
+          "service_hbr7ad1",
+          "template_pnv0gpd",
+          templateParams,
+          "L-fYRhw0IACWQmU8l"
+        )
+        .then(
+          (response) => {
+            alert("Email sent successfully!");
+            console.log("Status: ", response.status);
+            console.log("Message: ", response.message);
+          },
+          (err) => {
+            alert("Error: Message not sent", err);
+          }
+        );
+    }
 
     setName('');
     setEmail('');
