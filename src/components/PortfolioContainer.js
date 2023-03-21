@@ -5,6 +5,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
+import '../assets/css/style.css';
 
 
 
@@ -30,8 +31,10 @@ export default function PortfolioContainer() {
 
   return (
     <div>
+      <div className="porfolio-container">
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
+      </div>
       <Footer />
     </div>
   );

@@ -26,6 +26,7 @@ export default function Contact() {
     } else {
       setMessage(inputValue);
     }
+    
   
   };
 
