@@ -1,0 +1,28 @@
+.portfolio-container {
+    min-height: 96vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Karla', sans-serif;
+    background-color: #CDCDCD;
+}
+
+.footer {
+    height: 15vh;
+    font-family: 'Karla', sans-serif;
+}
+
+.main-content {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.contact-content {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.page-title {
+    text-align: center;
+}

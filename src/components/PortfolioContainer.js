@@ -31,7 +31,7 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-      <div className="porfolio-container">
+      <div className="portfolio-container">
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       </div>

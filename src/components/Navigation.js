@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <div className="container">
+    <div className="container fixed-top">
   <div className="row">
     <div className="col">
       <h1 className="mt-4">Carli Hudson</h1>
