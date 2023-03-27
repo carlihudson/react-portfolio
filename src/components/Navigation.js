@@ -2,10 +2,16 @@ import React from 'react';
 
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <div className="container fixed-top">
+    <div className="container nav-bar fixed-top">
   <div className="row">
     <div className="col">
-      <h1 className="mt-4">Carli Hudson</h1>
+    <a
+          href="#about"
+          onClick={() => handlePageChange('About')}
+          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+        >
+      <h1 className="mt-4 carli-h-header">Carli Hudson</h1>
+      </a>
     </div>
     <div className="col-8 mt-4">
     <ul className="nav col justify-content-end">

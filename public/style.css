@@ -1,9 +1,44 @@
+:root {
+    background-color: #3B252C
+}
+
+.nav-bar {
+    background-color: #CDCDCD;
+}
+
+.nav-bar a {
+    color: #8F6593;
+    font-size: 1.25rem;
+}
+
+.nav-bar a:hover {
+    color: #AEA4BF;
+   
+}
+
+.carli-h-header {
+    color: #3B1A4E;
+    font-size: 4rem;
+}
+
+.carli-h-header:hover {
+    color: #AEA4BF; 
+}
+
 .portfolio-container {
     min-height: 96vh;
     display: flex;
     flex-direction: column;
     font-family: 'Karla', sans-serif;
     background-color: #CDCDCD;
+    padding: 5rem;
+}
+
+.carli {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    size: 80%;
 }
 
 .footer {
@@ -11,10 +46,15 @@
     font-family: 'Karla', sans-serif;
 }
 
+.footer img:hover {
+    opacity: 0.5;
+}
+
 .main-content {
     display: flex;
     flex-grow: 1;
     align-items: center;
+    color: #3B1A4E
 }
 
 .contact-content {
@@ -25,4 +65,13 @@
 
 .page-title {
     text-align: center;
+}
+
+.carli-rez {
+    justify-content: center;
+}
+
+.ch-res {
+    margin: 3rem;
+    size: 80%;
 }

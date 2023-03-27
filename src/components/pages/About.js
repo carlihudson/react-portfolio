@@ -24,9 +24,9 @@ export default function About() {
         
         </div>
       <div className="col-6 d-flex justify-content-center">
-        <img className="w-75 mt-5 " src={Carli} alt="" />
+        <img className="carli img-fluid max-width: 80% p-2" src={Carli} alt="" />
       </div>
-      
+    
     </div>
     
    
