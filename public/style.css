@@ -1,5 +1,6 @@
 :root {
-    background-color: #3B252C
+    background-color: #3B252C;
+    --bs-primary: red;
 }
 
 .nav-bar {
@@ -14,6 +15,10 @@
 .nav-bar a:hover {
     color: #AEA4BF;
    
+}
+
+.nav-link {
+    color: red;
 }
 
 .carli-h-header {
