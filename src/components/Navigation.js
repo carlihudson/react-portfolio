@@ -8,7 +8,7 @@ function Navigation({ currentPage, handlePageChange }) {
     <a
           href="#about"
           onClick={() => handlePageChange('About')}
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+          className="nav-link"
         >
       <h1 className="mt-4 carli-h-header">Carli Hudson</h1>
       </a>

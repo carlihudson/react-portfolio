@@ -1,6 +1,5 @@
 :root {
     background-color: #3B252C;
-    --bs-primary: red;
 }
 
 .nav-bar {
@@ -17,8 +16,9 @@
    
 }
 
-.nav-link {
-    color: red;
+.nav-bar a.active {
+    color: #3B1A4E;
+    border-bottom: 2px solid #8F6593;
 }
 
 .carli-h-header {
@@ -68,6 +68,10 @@
     justify-content: center;
 }
 
+.resume-content {
+    padding-top: 54px;
+}
+
 .page-title {
     text-align: center;
 }
@@ -77,6 +81,6 @@
 }
 
 .ch-res {
-    margin: 3rem;
     size: 80%;
+    margin-bottom: 10rem;
 }
