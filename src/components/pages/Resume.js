@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import resume from '../../assets/img/ch-resume-3.23.jpeg'
 
 export default function Resume() {
