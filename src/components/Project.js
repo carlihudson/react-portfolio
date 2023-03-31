@@ -13,19 +13,20 @@ function Project(props) {
           <h1 className='page-title'>Projects</h1>
       </div>
       <div className="project">
-      <img
+        <p></p>
+      {/* <img
         src={image}
         alt={removeHyphensAndCapitalize(projectName)}
         className="project-bg"
-      />
-      <div className="project-text">
+      /> */}
+      {/* <div className="project-text">
         <h3>
           <a href={props.link}>{removeHyphensAndCapitalize(projectName)}</a>{' '}
           <a href={props.repo}>
           </a>
         </h3>
         <p>{props.description}</p>
-      </div>
+      </div> */}
 
       </div> 
     </div>
