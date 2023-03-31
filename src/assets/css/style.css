@@ -31,7 +31,7 @@
 }
 
 .portfolio-container {
-    min-height: 96vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     font-family: 'Karla', sans-serif;
@@ -47,7 +47,7 @@
 }
 
 .footer {
-    height: 15vh;
+    height: 10vh;
     font-family: 'Karla', sans-serif;
 }
 
@@ -70,7 +70,7 @@
 }
 
 .resume-content {
-    padding-top: 54px;
+    padding-top: 75px;
 }
 
 .page-title {
@@ -83,7 +83,6 @@
 
 .ch-res {
     size: 80%;
-    margin-bottom: 10rem;
 }
 
 .project-bg {
@@ -92,6 +91,4 @@
     height: 100%;
   }
 
-  button {
-    margin-bottom: 5rem 
-  }
+

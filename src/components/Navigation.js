@@ -13,7 +13,7 @@ function Navigation({ currentPage, handlePageChange }) {
       <h1 className="mt-4 carli-h-header">Carli Hudson</h1>
       </a>
     </div>
-    <div className="col-8 mt-4">
+    <div className="col-6 mt-4">
     <ul className="nav col justify-content-end">
       <li className="nav-item">
         <a

@@ -12,7 +12,7 @@ function Project(props) {
         <div className="row">
           <h1 className='page-title'>Projects</h1>
       </div>
-      <div className="project" key={projectName}>
+      <div className="project">
       <img
         src={image}
         alt={removeHyphensAndCapitalize(projectName)}
