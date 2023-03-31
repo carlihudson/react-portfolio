@@ -8,7 +8,7 @@ function Portfolio() {
             name: 'coding-quiz',
             description: 'JavaScript Coding Quiz',
             link: 'https://carlihudson.github.io/js-coding-quiz/',
-            repo: 'https://github.com/carlihudson/js-coding-quiz'
+            repo: 'https://github.com/carlihudson/js-coding-quiz',
         },
         {
             name: 'trivia-train',
@@ -43,21 +43,25 @@ function Portfolio() {
     ]);
 
     return (
-        <div>
-          <div className="flex-row col-sm-12 col-md-6 col-lg-3">
-            {projects.map((projects, index) => (
-              <Project
-                key={index}
-                name={projects.name}
-                description={projects.description}
-                link={projects.link}
-                repo={projects.repo}
-              />
-            ))}
-          </div> 
+      <div>
+        <div className="media container main-content">
+        <div className="media-body row contact-content">
+        <div className="row">
+          <h1 className='page-title'>Projects</h1>
         </div>
-        
-      );
+        <div className="flex-row col-sm-12 col-md-6 col-lg-3">
+          {projects.map((project, idx) => (
+            <Project
+            project={project}
+            key={"project" + idx}
+            />
+          ))}
+        </div> 
+      </div>
+      </div>
+    </div>
+      
+    );
     
 };
     

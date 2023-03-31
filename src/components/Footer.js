@@ -11,7 +11,7 @@ const styles = {
 
 function Footer() {
     return (
-        <div style={styles.footer} className="page-footer-section footer py-3">
+        <div style={styles.footer} className="page-footer-section footer fixed-bottom  py-3">
                 <div className="container">
                     <div className="row align-items-center">
                             <h5 className="col-6 text-light">carlihudson@gmail.com</h5>
