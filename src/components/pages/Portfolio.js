@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import Project from '../components/pages/Projects';
+import Project from '../Project';
 
 function Portfolio() {
 
-    const [projects] = useState([
+    const [ projects, setProjects ] = useState([
         {
             name: 'coding-quiz',
             description: 'JavaScript Coding Quiz',
@@ -44,19 +44,21 @@ function Portfolio() {
 
     return (
         <div>
-          <div className="flex-row">
-            {projects.map((project, idx) => (
+          <div className="flex-row col-sm-12 col-md-6 col-lg-3">
+            {projects.map((projects, index) => (
               <Project
-                project={project}
-                key={"project" + idx}
+                key={index}
+                name={projects.name}
+                description={projects.description}
+                link={projects.link}
+                repo={projects.repo}
               />
             ))}
-          </div>
+          </div> 
         </div>
+        
       );
-    };
+    
+};
     
 export default Portfolio;
-
-
-

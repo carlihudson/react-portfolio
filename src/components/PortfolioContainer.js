@@ -3,7 +3,7 @@ import Navigation from './Navigation';
 import Footer from './Footer'
 import About from './pages/About';
 import Contact from './pages/Contact';
-import Projects from './pages/Projects';
+import Projects from './Project';
 import Resume from './pages/Resume';
 
 export default function PortfolioContainer() {
