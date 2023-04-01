@@ -4,7 +4,7 @@ import { removeHyphensAndCapitalize } from '../utils/helpers';
 
 function Project({ project }) {
   const { name, repo, link, description } = project;
-  const image = `../../public/assets/project-img/${name}.jpg`
+  const image = require(`../../public/assets/project-img/${name}.jpg`)
 
   return (
       <div className="project col-lg-4 col-md-6 col-sm-12">

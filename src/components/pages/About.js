@@ -7,7 +7,7 @@ export default function About() {
     <div className="media container main-content">
       <div className="media-body row">
       <div className="row">
-        <div className="col-6 align-items-center">
+        <div className="col-lg-6 col-md-8 align-items-center">
           <h2 className="mt-0 mb-3 mt-5">Welcome!</h2>
           <p>I’m Carli, and I am a recent graduate of UCLA Extension’s Full-Stack Software Development Program. 
           I spent the first decade of my career working jobs in the arts, such as an assistant in the entertainment industry, 
@@ -23,7 +23,7 @@ export default function About() {
           </p>
         
         </div>
-      <div className="col-6 d-flex justify-content-center">
+      <div className="col-lg-6 col-md-4 d-flex justify-content-center">
         <img className="carli img-fluid max-width: 80% p-2" src={Carli} alt="" />
       </div>
     
