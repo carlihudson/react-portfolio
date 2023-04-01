@@ -4,11 +4,10 @@ import { removeHyphensAndCapitalize } from '../utils/helpers';
 
 function Project({ project }) {
   const { name, repo, link, description } = project;
-  const image = `./assets/img/project-img/${name}.jpg`
+  const image = `../../public/assets/project-img/${name}.jpg`
 
   return (
-      <div className="media-body row contact-content">
-      <div className="project">
+      <div className="project col-4">
       <img
         src={image}
         alt={removeHyphensAndCapitalize(name)}
@@ -21,9 +20,7 @@ function Project({ project }) {
         </h3>
         <p>{description}</p>
       </div>
-
-      </div> 
-    </div>
+    </div> 
     
   );
 }

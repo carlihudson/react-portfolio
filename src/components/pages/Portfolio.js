@@ -49,7 +49,7 @@ function Portfolio() {
         <div className="row">
           <h1 className='page-title'>Projects</h1>
         </div>
-        <div className="flex-row col-sm-12 col-md-6 col-lg-3">
+        <div className="flex-row flex-wrap">
           {projects.map((project, idx) => (
             <Project
             project={project}
