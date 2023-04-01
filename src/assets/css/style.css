@@ -87,7 +87,8 @@
 }
 
 .project {
-    padding: 2rem;
+    padding: 1rem;
+    padding-bottom: 0;
 }
 
 .project-bg {
@@ -105,8 +106,13 @@
         padding: 1rem;
     }
 
-    .resume-content {
+    .resume-content, .portfolio-content {
         padding-top: 3rem;
+    }
+
+    .project {
+        padding: 1rem;
+        padding-bottom: 0;
     }
 }
 
@@ -119,7 +125,7 @@
         margin-top: 0;
     }
 
-    .resume-content {
+    .resume-content, .portfolio-content {
         padding-top: 7rem;
     }
 
@@ -127,6 +133,14 @@
         font-size: 1.25rem;
     }
    
+    .about {
+        padding-top: 5rem;
+    }
+
+    .project {
+        padding: 1rem;
+        padding-bottom: 0;
+    }
 
 }
 
