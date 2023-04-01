@@ -6,6 +6,10 @@
     background-color: #CDCDCD;
 }
 
+.menu {
+    margin-top: 2.25rem
+}
+
 .nav-bar a {
     color: #8F6593;
     font-size: 1.25rem;
@@ -92,4 +96,37 @@
     height: 66%;
   }
 
+
+/* Media Queries */
+
+@media screen and (width<= 1200px) {
+
+    .portfolio-container {
+        padding: 1rem;
+    }
+
+    .resume-content {
+        padding-top: 3rem;
+    }
+}
+
+@media screen and (width<= 991px) {
+    .carli-h-header {
+        text-align: center;
+    }
+
+    .menu {
+        margin-top: 0;
+    }
+
+    .resume-content {
+        padding-top: 7rem;
+    }
+
+    .download {
+        font-size: 1.25rem;
+    }
+   
+
+}
 
