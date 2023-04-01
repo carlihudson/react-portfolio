@@ -84,6 +84,10 @@
     size: 80%;
 }
 
+.project {
+    padding: 2rem;
+}
+
 .project-bg {
     position: relative;
     width: 100%;

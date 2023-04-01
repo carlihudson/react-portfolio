@@ -7,8 +7,7 @@ function Project({ project }) {
   const image = `../../public/assets/project-img/${name}.jpg`
 
   return (
-    <div className="d-flex ">
-      <div className="project">
+      <div className="project col-lg-4 col-md-6 col-sm-12">
       <img
         src={image}
         alt={removeHyphensAndCapitalize(name)}
@@ -22,8 +21,6 @@ function Project({ project }) {
         <p>{description}</p>
       </div>
     </div> 
-    </div> 
-    
   );
 }
 
