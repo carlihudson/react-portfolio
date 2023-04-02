@@ -1,5 +1,5 @@
 import React from 'react';
-// import { faGithub } from 'react-icons/fa';
+import GitHub from '../assets/img/github-mark-white.png';
 import { removeHyphensAndCapitalize } from '../utils/helpers';
 
 function Project({ project }) {
@@ -11,14 +11,16 @@ function Project({ project }) {
       <img
         src={image}
         alt={removeHyphensAndCapitalize(name)}
-        className="project-bg"
+        className="project-bg d-flex"
       /> 
-       <div className="project-text">
-        <h3>
-        <a href={link}>{removeHyphensAndCapitalize(name)}</a>{' '}
-        <a href={repo}>Link</a>
-        </h3>
-        <p>{description}</p>
+       <div className="project-text mt-2">
+          <h3>
+            <a className="link" href={link}>{removeHyphensAndCapitalize(name)}</a>{' '}
+          </h3>
+            <p>{description}</p>
+            <a href={repo}>
+        <img className="p-1 repo" src={GitHub} alt="github logo" />
+        </a>
       </div>
     </div> 
   );

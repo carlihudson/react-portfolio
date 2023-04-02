@@ -97,6 +97,23 @@
     height: 66%;
   }
 
+.project-bg:hover {
+    opacity: 0.5;
+}
+
+.repo:hover {
+    opacity: 0.5;
+}
+
+.link {
+    color: #3B1A4E;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #AEA4BF; 
+}
+
 
 /* Media Queries */
 
