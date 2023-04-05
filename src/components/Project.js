@@ -8,19 +8,23 @@ function Project({ project }) {
 
   return (
       <div className="project col-lg-4 col-md-6 col-sm-12">
-      <img
-        src={image}
-        alt={removeHyphensAndCapitalize(name)}
-        className="project-bg d-flex"
-      /> 
-       <div className="project-text mt-2">
-          <h3>
-            <a className="link" href={link}>{removeHyphensAndCapitalize(name)}</a>{' '}
-          </h3>
-            <p>{description}</p>
-            <a href={repo}>
-        <img className="p-1 repo" src={GitHub} alt="github logo" />
+        <a target="_blank" href={link}>
+          <img
+            src={image}
+            alt={removeHyphensAndCapitalize(name)}
+            className="project-bg d-flex"
+          /> 
         </a>
+       <div className="project-text d-flex mt-2">
+        <div className='row d-flex'>
+          <h3>
+            <a className="link col-12" target="_blank" href={link}>{removeHyphensAndCapitalize(name)}</a>{' '}
+          </h3>
+          </div>
+          <p className="desc">{description}</p>
+          <a target="_blank" href={repo}>
+            <img className="p-1 repo" src={GitHub} alt="github logo" />
+          </a>
       </div>
     </div> 
   );

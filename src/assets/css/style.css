@@ -48,6 +48,7 @@
     margin-left: 3rem;
     margin-top: 2rem;
     margin-bottom: 3rem;
+    object-fit: contain;
 }
 
 .footer {
@@ -102,6 +103,10 @@
     opacity: 0.5;
 }
 
+.repo {
+    align-self: flex-end
+}
+
 .repo:hover {
     opacity: 0.5;
 }
@@ -109,6 +114,8 @@
 .link {
     color: #3B1A4E;
     text-decoration: none;
+    /* position: absolute;
+    align-self: flex-start */
 }
 
 .link:hover {
@@ -125,7 +132,7 @@
     }
 
     .resume-content, .portfolio-content {
-        padding-top: 3rem;
+        padding-top: 4rem;
     }
 
     .project {
@@ -143,7 +150,7 @@
         margin-top: 0;
     }
 
-    .resume-content, .portfolio-content {
+    .resume-content, .portfolio-content, .contact-content {
         padding-top: 7rem;
     }
 
