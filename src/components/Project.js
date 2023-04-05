@@ -15,16 +15,18 @@ function Project({ project }) {
             className="project-bg d-flex"
           /> 
         </a>
-       <div className="project-text d-flex mt-2">
-        <div className='row d-flex'>
+       <div className="project-text d-flex mt-2 row">
+        <div className="col-8">
           <h3>
-            <a className="link col-12" target="_blank" href={link}>{removeHyphensAndCapitalize(name)}</a>{' '}
+            <a className="link" target="_blank" href={link}>{removeHyphensAndCapitalize(name)}</a>{' '}
           </h3>
-          </div>
           <p className="desc">{description}</p>
+        </div>
+        <div className="col-4">
           <a target="_blank" href={repo}>
-            <img className="p-1 repo" src={GitHub} alt="github logo" />
+            <img className="repo" src={GitHub} alt="github logo" />
           </a>
+        </div>
       </div>
     </div> 
   );
