@@ -5,8 +5,8 @@ export default function Resume() {
   return (
     <div className="media container main-content">
     <div className="media-body row resume-content">
-      <div className="download d-flex justify-content-end mr-2 mb-2">
-        <a href='../../assets/pdf/ch_res_3-23.pdf' download>Download My Resume</a>
+      <div className="downloa d-flex justify-content-end mr-2 mb-2">
+        <a href='../assets/pdf/ch_res_3-23.pdf' download>Download My Resume</a>
       </div>
       <div className="carli-rez">
       <img className="ch-res img-fluid" src={resume} alt="" />
