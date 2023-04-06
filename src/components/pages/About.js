@@ -5,7 +5,7 @@ import Carli from '../../assets/img/carli.JPG'
 export default function About() {
   return (
     <div className="media container main-content">
-      <div className="media-body row">
+      <div className="media-body row about-content">
       <div className="row about">
         <div className="col-lg-6 col-md-12 align-items-center">
           <h2 className="mt-0 mb-3 mt-5">Welcome!</h2>

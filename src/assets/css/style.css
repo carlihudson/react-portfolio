@@ -169,3 +169,20 @@
 
 }
 
+@media screen and (width<= 425px) {
+
+    .nav-bar a {
+        color: #8F6593;
+        font-size: 1rem;
+    }
+
+    .resume-content, .portfolio-content, .contact-content {
+        padding-top: 12rem;
+    }
+
+    .about-content {
+        padding-top: 5rem;
+    }
+
+}
+
