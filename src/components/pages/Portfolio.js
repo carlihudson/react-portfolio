@@ -17,10 +17,10 @@ function Portfolio() {
             repo: 'https://github.com/carlihudson/trivia-train'
         },
         {
-            name: 'note-taker',
-            description: 'Express Note Taking Application',
-            link: 'https://carli-hudson-note-taker.herokuapp.com/',
-            repo: 'https://github.com/carlihudson/note-taker'
+            name: 'java-junkies',
+            description: 'A Virtual Cafe',
+            link: 'https://java-junkies-virtual-cafe.herokuapp.com/',
+            repo: 'https://github.com/Klgibsonjr/java-junkies-virtual-cafe'
         },
         {
             name: 'pantry-pal',
