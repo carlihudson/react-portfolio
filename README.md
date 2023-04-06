@@ -1,71 +1,41 @@
-# Getting Started with Create React App
+#  Challenge Nine - README Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit//)
+        
+  ## Description
+   This week's assignment was to create an application with node.js that automatically creates a README.md file for the user in the command line. It saves users a lot of time so they can get a professionally formatted README file without typing everything from scratch. I generated this file using this application, and added some additional content such as line breaks, links, and bullet points into the file itself. 
+   
+   This project was entirely done in JavaScript.
+  
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Demonstration](#demonstration)
+  - [License](#license)
+  
+  ## Installation
+  The user must have a source code editor tool, such as VS Code, TextEdit on Mac, or NotePad on Windows. Additionally, the user will need node.js installed. 
+  
+  Once those tools are installed, hit the “code” button in this repository and copy the link. In your command line, type "git clone" followed by pasting the copied link to clone onto your own local machine. 
+  
+  Once you're in your project via the code editing software as well as in the command line, use the following CL commands: 
+  * “npm init” or “npm init -y” to install the node package manager and your package.json file. 
+  * “npm install inquirer@8.2.4” to get the inquirer package from npm. Make sure to add the @8.2.4 to get the correct version.
+  
+  ## Usage
+  This application could be used for any projects for school, work, or just for fun.
+  
+  To start using this application, simply type “node index.js” into the command line. You will then get the first question. After you answer, press enter and the next question will appear. 
+  
+  If you don’t have an answer to a question, you can just press enter to skip. The application will return the section as blank, and you can always go back later and add content to the file. 
 
-## Available Scripts
+  ## Demonstration
+  [Click this link](https://drive.google.com/file/d/1jmo5cuZZOBo-1tUNu6xV6-Y_-RMHgdEH/view) see a video demonstration of this application in action.
+  
 
-In the project directory, you can run:
+  ## License
+      This project is covered under the MIT license. To learn more, click the badge at the top.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
+  ## Questions
+  If you have any questions, reach out to me at https://github.com/carlihudson, or shoot me an email at carlihudson@gmail.com.
+   
