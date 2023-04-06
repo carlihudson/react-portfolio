@@ -135,6 +135,14 @@
         padding-top: 4rem;
     }
 
+    .contact-content {
+        padding-top: 5rem;
+    }
+
+    .about-content {
+        padding-top: 2rem;
+    }
+
     .project {
         padding: 1rem;
         padding-bottom: 0;
@@ -172,17 +180,53 @@
 @media screen and (width<= 425px) {
 
     .nav-bar a {
-        color: #8F6593;
         font-size: 1rem;
     }
 
-    .resume-content, .portfolio-content, .contact-content {
+    .resume-content, .portfolio-content {
         padding-top: 12rem;
     }
 
-    .about-content {
-        padding-top: 5rem;
+}
+
+@media screen and (width<= 408px) {
+
+    .carli-h-header {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (width<= 371px) {
+
+    .carli-h-header {
+        font-size: 3rem;
     }
 
+    .nav-bar a {
+        font-size: 2rem;
+    }
+
+    .about-content {
+        padding-top: 3rem;
+    }
+
+    .contact-content {
+        padding-top: 12rem;
+    }
+}
+
+@media screen and (width<= 321px) {
+
+    .carli-h-header {
+        font-size: 2.5rem;
+    }
+
+    .nav-bar a {
+        font-size: 1.5rem;
+    }
+
+    .about-content {
+        padding-top: 1rem;
+    }
 }
 
