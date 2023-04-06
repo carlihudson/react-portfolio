@@ -21,6 +21,8 @@
 
   On my "Resume" page, there is a photo of my resume, as well as a link to download it. 
 
+  ![alt text](./public/assets/img/resume.png)
+
   On the "Contact" page, there's a contact form with three fields all required. Once they're filled out, when you click submit I will get an email sent to me with your message. 
 
   On the footer, my email address is listed, as well as logos for Github, Linkedin, and Instagram. Click on the logo of a social network, and another tab with my profile from that network will open. 
