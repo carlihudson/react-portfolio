@@ -3,7 +3,9 @@
   [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit//)
         
   ## Description
-   This week's assignment was to create an application with node.js that automatically creates a README.md file for the user in the command line. It saves users a lot of time so they can get a professionally formatted README file without typing everything from scratch. I generated this file using this application, and added some additional content such as line breaks, links, and bullet points into the file itself. 
+   This week's assignment was to create a personal portfolio website, with a React front-end.
+   
+   an application with node.js that automatically creates a README.md file for the user in the command line. It saves users a lot of time so they can get a professionally formatted README file without typing everything from scratch. I generated this file using this application, and added some additional content such as line breaks, links, and bullet points into the file itself. 
    
    This project was entirely done in JavaScript.
   
