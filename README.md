@@ -13,13 +13,19 @@
   ## Usage
   When you go to the site, the landing page is my "About Me" page. At the top, you can navigate to my "Projects", "Resume", or "Contact" pages. 
 
+  ![alt text](./public/assets/img/about.png)
+
   On my "Projects" page, there are six projects listed. If you click on the photo or the title, the deployed project will open in another tab. If you click the github logo, the repository for that project in another tab. 
+
+  ![alt text](./public/assets/img/projects.png)
 
   On my "Resume" page, there is a photo of my resume, as well as a link to download it. 
 
   On the "Contact" page, there's a contact form with three fields all required. Once they're filled out, when you click submit I will get an email sent to me with your message. 
 
   On the footer, my email address is listed, as well as logos for Github, Linkedin, and Instagram. Click on the logo of a social network, and another tab with my profile from that network will open. 
+
+  ![alt text](./public/assets/img/contact-and-footer.png)
 
   ## Link
   You can visit my porfolio at https://carlihudson.github.io/react-portfolio/ 
