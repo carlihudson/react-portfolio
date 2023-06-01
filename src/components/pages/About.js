@@ -14,7 +14,7 @@ export default function About() {
           and several weekend odd jobs. However, one constant at every job I’ve held is my love for data structures and computer 
           applications. Last year, I decided to take the plunge and take this admiration and turn it into a career change. </p>
 
-          <p>I currently work at Netflix as a Contract Studio Data Administrator. In this role I work with several internal 
+          <p>I currently work at Netflix as a Contract Talent Data Specialist. In this role, I work with several internal 
         applications to check the validity of talent data coming into Netflix’s studio database, as well as work with 
         the engineers in an agile workflow as they continue to build and improve the application ecosystem. </p>
 
