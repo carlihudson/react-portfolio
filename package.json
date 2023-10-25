@@ -1,7 +1,7 @@
 {
   "name": "ch-react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://carlihudson.github.io",
+  "homepage": "https://carlihudson.github.io/react-portfolio",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
@@ -44,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "@types/react-pdf": "^7.0.0",
     "gh-pages": "^5.0.0"
   }
 }
