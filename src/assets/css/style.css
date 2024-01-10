@@ -106,7 +106,8 @@
 }
 
 .repo {
-    align-self: flex-end
+    padding: 1rem;
+    padding-bottom: 2rem;
 }
 
 .repo:hover {
@@ -116,8 +117,8 @@
 .link {
     color: #3B1A4E;
     text-decoration: none;
-    /* position: absolute;
-    align-self: flex-start */
+    font-size: 3rem;
+    
 }
 
 .link:hover {
