@@ -4,42 +4,27 @@ import Project from '../Project';
 function Portfolio() {
 
     const [ projects, setProjects ] = useState([
-        {
-            name: 'coding-quiz',
-            description: 'JavaScript Coding Quiz',
-            link: 'https://carlihudson.github.io/js-coding-quiz/',
-            repo: 'https://github.com/carlihudson/js-coding-quiz',
-        },
-        {
+      {
+        name: 'tech-blog',
+        description: 'A Content-Management-System (CMS) style blog, where users can create accounts, write and delete posts, and comment',
+        techUsed: 'Sequelize, bcrypt, express.js handlebars.js, Bootstrap',
+        link: 'https://model-view-controller-blog.herokuapp.com/',
+        repo: 'https://github.com/carlihudson/mvc-tech-blog'
+      },  
+      {
             name: 'trivia-train',
-            description: '3rd Party API Online Trivia Game',
+            description: 'An online trivia game featuring nine categories and animated gifs generated with each answer',
+            techUsed: 'Giphy API, Random Facts API, Jquery, Tailwind CSS',
             link: 'https://carlihudson.github.io/trivia-train/',
             repo: 'https://github.com/carlihudson/trivia-train'
         },
         {
-            name: 'java-junkies',
-            description: 'A Virtual Cafe',
-            link: 'https://java-junkies-virtual-cafe.herokuapp.com/',
-            repo: 'https://github.com/Klgibsonjr/java-junkies-virtual-cafe'
-        },
-        {
-            name: 'pantry-pal',
-            description: 'SQL Food Inventory Tracker',
-            link: 'https://the-pantry-pal.herokuapp.com/',
-            repo: 'https://github.com/sieraford/pantry-pal'
-        },
-        {
-            name: 'tech-blog',
-            description: 'MVC Framework Blog',
-            link: 'https://model-view-controller-blog.herokuapp.com/',
-            repo: 'https://github.com/carlihudson/mvc-tech-blog'
-        },
-        {
-            name: 'text-editor',
-            description: 'PWA Online or Offline Text Editor',
-            link: 'https://pwa-txt-edit.herokuapp.com/',
-            repo: 'https://github.com/carlihudson/pwa-text-editor'
-        },
+          name: 'coding-quiz',
+          description: 'A timed quiz on basic web development. Each wrong answer docks 5 seconds from your time. Finish, and you can enter your initials and see the high scores.',
+          techUsed: 'JavaScript',
+          link: 'https://carlihudson.github.io/js-coding-quiz/',
+          repo: 'https://github.com/carlihudson/js-coding-quiz',
+      }
     ]);
 
     return (

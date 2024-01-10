@@ -3,26 +3,21 @@ import GitHub from '../assets/img/github-mark-white.png';
 import { removeHyphensAndCapitalize } from '../utils/helpers';
 
 function Project({ project }) {
-  const { name, repo, link, description } = project;
+  const { name, repo, link, description, techUsed } = project;
   const image = require(`../../public/assets/project-img/${name}.jpg`)
 
   return (
-      <div className="project col-lg-4 col-md-6 col-sm-12">
-        <a target="_blank" href={link}>
-          <img
-            src={image}
-            alt={removeHyphensAndCapitalize(name)}
-            className="project-bg d-flex"
-          /> 
-        </a>
+      <div className="project col-12 ">
        <div className="project-text d-flex mt-2 row">
-        <div className="col-8">
-          <h3>
+        <div className="col-9">
+          <h2>
             <a className="link" target="_blank" href={link}>{removeHyphensAndCapitalize(name)}</a>{' '}
-          </h3>
+          </h2>
+         
           <p className="desc">{description}</p>
+          <p className="tech fw-bold">TECH USED: {techUsed}</p>
         </div>
-        <div className="col-4">
+        <div className="col-3 text-center">
           <a target="_blank" href={repo}>
             <img className="repo" src={GitHub} alt="github logo" />
           </a>
