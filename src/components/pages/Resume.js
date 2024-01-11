@@ -1,6 +1,5 @@
 import resumepdf from '../../assets/pdf/CH-resume-10.23.pdf'
 import "react-pdf/dist/esm/Page/TextLayer.css";
-import { Document, Page } from 'react-pdf';
 
 
 export default function Resume() {
@@ -12,10 +11,9 @@ export default function Resume() {
         <a href={resumepdf} download>Download My Resume</a>
       </div>
       <div className="carli-rez d-flex justify-content-center">
+      <iframe className="ch-res" title="embed-resume"src="https://docs.google.com/document/d/e/2PACX-1vQNcoFoUPL1SxdSWHrVXCQmEPvQJYTtoF482K4WIwXLC3FQ3q9tEx0tgoOYusrASA/pub?embedded=true" width="1000px" height="1000px">
+      </iframe>
       {/* <img className="ch-res img-fluid" src={resume} alt="Carli Hudson Resume" /> */}
-      <Document className="ch-res img-fluid" file={resumepdf}>
-      <Page pageNumber={1} />
-    </Document>
       </div>
     </div>
     
