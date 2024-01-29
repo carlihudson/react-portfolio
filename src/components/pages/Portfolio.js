@@ -12,6 +12,13 @@ function Portfolio() {
         repo: 'https://github.com/carlihudson/mvc-tech-blog'
       },  
       {
+        name: 'social-media-backend',
+        description: 'A backend API for social networks with the ability to create users, connections, posts, and comments.',
+        techUsed: 'MongoDB, mongoose.js node.js, express.js, moment.js. ',
+        link: 'https://drive.google.com/file/d/1u6VxNsHwipInxIZvWKapnDZ-VTxyJk8Z/view',
+        repo: 'https://github.com/carlihudson/nosql-social',
+      },
+      {
             name: 'trivia-train',
             description: 'An online trivia game featuring nine categories and animated gifs generated with each answer',
             techUsed: 'Giphy API, Random Facts API, Jquery, Tailwind CSS',

@@ -183,8 +183,7 @@
 
 @media screen and (width<= 800px) {
     .ch-res {
-        display: none;
-        
+        display: none;  
     }
 }
 
