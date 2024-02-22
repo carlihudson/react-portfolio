@@ -91,6 +91,10 @@
     
 }
 
+.ch-sm-res {
+    display: none
+}
+
 .project {
     padding: 1rem;
     padding-bottom: 0;
@@ -184,6 +188,10 @@
 @media screen and (width<= 800px) {
     .ch-res {
         display: none;  
+    }
+
+    .ch-sm-res {
+        display: block;
     }
 }
 

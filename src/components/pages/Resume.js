@@ -1,4 +1,5 @@
-import resumepdf from '../../assets/pdf/CH-resume-10.23.pdf'
+import resumepdf from '../../assets/pdf/CH-resume-2.24.pdf'
+import resume from '../../assets/img/CH-resume-2.24.png'
 
 
 export default function Resume() {
@@ -12,6 +13,7 @@ export default function Resume() {
       <div className="carli-rez d-flex justify-content-center">
       <iframe className="ch-res" title="embed-resume"src="https://docs.google.com/document/d/e/2PACX-1vQNcoFoUPL1SxdSWHrVXCQmEPvQJYTtoF482K4WIwXLC3FQ3q9tEx0tgoOYusrASA/pub?embedded=true" width="800px" height="1000px">
       </iframe>
+      <img className="ch-sm-res img-fluid" src={resume} alt="Carli Hudson Resume" />
       </div>
     </div>
     
