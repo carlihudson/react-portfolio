@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Navigation from './Navigation';
-import Footer from './Footer'
+import Footer from './Footer';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
@@ -13,9 +13,17 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 ).toString();
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('About');
+  // Get the project name from the URL parameter
+  const urlParams = new URLSearchParams(window.location.search);
+  const initialPage = urlParams.get('project') || 'About';
 
-  // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
+  const [currentPage, setCurrentPage] = useState(initialPage);
+
+  // Save the current page to localStorage whenever it changes
+  useEffect(() => {
+    localStorage.setItem('currentPage', currentPage);
+  }, [currentPage]);
+
   const renderPage = () => {
     if (currentPage === 'About') {
       return <About />;
@@ -24,18 +32,24 @@ export default function PortfolioContainer() {
       return <Portfolio />;
     }
     if (currentPage === 'Resume') {
-        return <Resume />;
-      }
+      return <Resume />;
+    }
     return <Contact />;
   };
 
-  const handlePageChange = (page) => setCurrentPage(page);
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+    // Update the URL when the page changes
+    const newUrl = new URL(window.location.href);
+    newUrl.searchParams.set('project', page);
+    window.history.pushState({}, '', newUrl);
+  };
 
   return (
     <div>
       <div className="portfolio-container">
-      <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
+        <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+        {renderPage()}
       </div>
       <Footer />
     </div>
