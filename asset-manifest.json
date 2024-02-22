@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a24f39f3.css",
-    "main.js": "/static/js/main.560efe62.js",
+    "main.js": "/static/js/main.21673724.js",
     "static/media/coding-quiz.jpg": "/static/media/coding-quiz.513e3dc60ead90631d3c.jpg",
     "static/media/carli.JPG": "/static/media/carli.5f75ea3653c69958e746.JPG",
     "static/media/pantry-pal.jpg": "/static/media/pantry-pal.4ddf4f9794ba60e162c1.jpg",
@@ -14,10 +14,10 @@
     "static/media/CH-resume-10.23.pdf": "/static/media/CH-resume-10.23.82bdcf8876dc41117fb2.pdf",
     "index.html": "/index.html",
     "main.a24f39f3.css.map": "/static/css/main.a24f39f3.css.map",
-    "main.560efe62.js.map": "/static/js/main.560efe62.js.map"
+    "main.21673724.js.map": "/static/js/main.21673724.js.map"
   },
   "entrypoints": [
     "static/css/main.a24f39f3.css",
-    "static/js/main.560efe62.js"
+    "static/js/main.21673724.js"
   ]
 }
