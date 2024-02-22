@@ -19,7 +19,6 @@ function Footer() {
                             <div className="mt-3">
                                 <a className='' href="https://github.com/carlihudson" target="_blank"><img className="p-3" src={GitHub} alt="github logo" /></a>
                                 <a href="https://www.linkedin.com/in/carli-hudson/" target="_blank"><img className="p-3" src={Linkedin} alt="linkein logo" /></a>
-                                <a href="https://www.instagram.com/carli_hudson/" target="_blank"><img className="p-3" src={Instagram} alt="instagram logo" /></a>
                             </div>
                         </div>
                     </div>
