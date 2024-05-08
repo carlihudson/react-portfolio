@@ -1,5 +1,5 @@
 import resumepdf from '../../assets/pdf/CH-resume-5.24.pdf'
-import resume from '../../assets/img/CH-resume-2.24.png'
+import resume from '../../assets/img/CH-resume-5.24.png'
 
 
 export default function Resume() {
